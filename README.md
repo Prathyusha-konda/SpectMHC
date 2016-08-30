@@ -8,6 +8,8 @@ To download the files, please open the files, click on 'Raw' at the top, right c
 
 -> You will need to install offline version of netMHC -4.0 or 3.4 or pan versions onto your Ubuntu or Darwin system. The instructions for istallation are provided on the netMHC website. 
 
+http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?netMHC
+
 -> Please download the SpectMHC_main.py, SpectMHC_methods.py, readme file and keep them in the same folder as your "parent file". The folder can be present anywhere on the system.
 
 -> Parent file is supposed to be in fasta file format. 
