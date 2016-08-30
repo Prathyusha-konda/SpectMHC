@@ -2,7 +2,9 @@
 
 
 
-#1. The code provided here is used to create MHC peptide database using netMHC software. 
+-> The code provided here is used to create MHC peptide database using netMHC software. 
+
+To download the files, please open the files, click on 'Raw' at the top, right click on the browser, Save as - save!
 
 #2. You will need to install offline version of netMHC -4.0 or 3.4 or pan versions onto your Ubuntu or Darwin system. The instructions for istallation are provided on the netMHC website. 
 
