@@ -1,7 +1,7 @@
 import SpectMHC_methods
 
 if SpectMHC_methods.install_check("verify") in 'yes':
-	print "\nOk, Let's move ahead\n"
+	print "\nOk, Let's move ahead"
 	version = SpectMHC_methods.version("verify version")
 	split_output=raw_input("\nDo you want to split your parent file? yes or no: ")
 	if split_output in 'yes':
@@ -45,11 +45,11 @@ if SpectMHC_methods.install_check("verify") in 'yes':
  
 
 	elif split_output in 'no':
-		files = raw_input("Please enter your file names, if you have multiple files, separate them by space. ex- 1.fsa 2.fsa 3.fsa: ")
+		files = raw_input("\nPlease enter your file names, if you have multiple files, separate them by space. ex- 1.fsa 2.fsa 3.fsa: ")
 		input_files = files.split()
 			
 		
-		check2 = raw_input("Do you want the output in fasta format? yes or no: ") 
+		check2 = raw_input("\nDo you want the output in fasta format? yes or no: ") 
 		if check2 in 'yes':
 			if version in '3.4':
 				cut_off=float(raw_input("\nWhat is the binding affinity cut_off you are interested in? netmhc suggests 50 for strong binders and 500 for weak binders: "))
