@@ -1,7 +1,7 @@
 
 
 def install_check(check):
-	print "check"
+	print "\ncheck"
 
 	netMHC = raw_input('\nDid you install netMHC? reply with yes or no:')
 
@@ -11,7 +11,6 @@ def install_check(check):
 
 
 def version(check): 
-	print "check"
 	
 	version = raw_input('\nWhich version of netMHC do you want to use? 4.0 or 3.4 or pan: ')
 
