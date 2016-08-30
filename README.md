@@ -1,4 +1,5 @@
-# netMHC_DB_scripts
+#SpectMHC Tool
+
 
 
 1. The code provided here is used to create MHC peptide database using netMHC software. 
