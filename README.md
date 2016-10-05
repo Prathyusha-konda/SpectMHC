@@ -24,6 +24,7 @@ http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?netMHC
 
 #For queries related to the tool, please contact:
 #    prathyusha.konda@dal.ca
+#    shashi.gujar@dal.ca
 
 
 
