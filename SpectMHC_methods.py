@@ -95,7 +95,7 @@ def executemhc(version, list_of_files):
 			if version in '4.0':
 				command = '%s/netMHC -l %d -a %s %s > %s' %(path, i, allele, filename, outfile)
 			elif version in 'pan':
-				command = '%s/netMHCpan -l %d -a %s %s > %s_%d_output.txt' %(path, i, allele, filename, outfile)			
+				command = '%s/netMHCpan -l %d -a %s %s > %s' %(path, i, allele, filename, outfile)			
 			elif version in '3.4':
 				command = '%s/netMHC -l %d -a %s %s > %s' %(path, i, allele, filename, outfile)
 			os.system(command)
