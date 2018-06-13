@@ -19,7 +19,8 @@ http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?netMHC
 
 -> You can choose to work with either netMHC-4.0/3.4 or pan versions. Just choose the specific version when you are prompted.
 
--> NetMHC software allows the user to execute files with "At most 5000 sequences per submission; each sequence not more than 20,000 amino acids and not less than 8 amino acids". If you have a file input with more than 5000 sequences or more than 20,000 amino acids, when prompted if you want to split the file, please choose yes and input the number of sequences that you want in each split file. We recommend 1000 sequences in order to reduce the processing time.
+-> You will be prompted to split your file, but it is #not mandatory to split your file. 
+However, if you split the file, it will be easier to navigate incase your computer or program hangsup on you. If you decide to split your file, you can split into 5000-10000 sequences per file.
 
 
 #For queries related to the tool, please contact:
