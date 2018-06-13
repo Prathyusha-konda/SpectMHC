@@ -3,7 +3,7 @@ import SpectMHC_methods
 if SpectMHC_methods.install_check("verify") in 'yes':
 	print "\nOk, Let's move ahead"
 	version = SpectMHC_methods.version("verify version")
-	split_output=raw_input("\nDo you want to split your parent file? yes or no: ")
+	split_output=raw_input("\nDo you want to split your parent file? yes or no [not mandatory, please read instructions]: ")
 	if split_output in 'yes':
 		split_list=SpectMHC_methods.split_files("split")
 		check1 = raw_input("\nDo you want to save your splitfiles after we complete the execution? yes or no: ")
